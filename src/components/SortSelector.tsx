@@ -21,7 +21,7 @@ const SortSelector = ({ onSelectSortOrder, sortOrder }: Props) => {
   return (
     <Menu>
       <MenuButton as={Button} rightIcon={<BsChevronDown />}>
-        Order by: {currentSortOrder?.label || 'Relevance'}
+        排序: {currentSortOrder?.label || '相关度'}
       </MenuButton>
       <MenuList>
         {sortOrders.map((order) => (

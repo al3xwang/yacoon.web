@@ -26,7 +26,7 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
   return (
     <>
       <Heading fontSize="2xl" marginTop={9} marginBottom={3}>
-        Genres
+        设备/工艺
       </Heading>
       <List>
         {data.map((genre) => (
